@@ -74,37 +74,39 @@
 
 //task 
 
-let Data="my profession is software engnr";
-class User{
-    constructor(name,email){
+// let Data="my profession is software engnr";
+// class User{
+//     constructor(name,email){
         
-        this.name=name;
-        this.email=email;
-    }
-    viewData(){
-        console.log("ewebsite data ",Data)
-    }
-}
+//         this.name=name;
+//         this.email=email;
+//     }
+//     viewData(){
+//         console.log("ewebsite data ",Data)
+//     }
+// }
 
-let userObj=new User();
-// userObj.name="nirma";
+// let userObj=new User();
+// // userObj.name="nirma";
 
-userObj.viewData();
-console.log(userObj.name="nirma");
-console.log(userObj.email="xyz@gmail.com");
+// userObj.viewData();
+// console.log(userObj.name="nirma");
+// console.log(userObj.email="xyz@gmail.com");
 
-class Admin extends User{
-    constructor(name,email){
-        super(name,email);
+// class Admin extends User{
+//     constructor(name,email){
+//         super(name,email);
 
-    }
-    editData(){
-        Data="new edited data";
-    }
-}
+//     }
+//     editData(){
+//         Data="new edited data";
+//     }
+// }
 
-let admnObj=new Admin("admin1","admn@gmai.com");
+// let admnObj=new Admin("admin1","admn@gmai.com");
 
-console.log(admnObj);
-console.log(admnObj.editData());
-console.log(Data);
+// console.log(admnObj);
+// console.log(admnObj.editData());
+// console.log(Data);
+
+

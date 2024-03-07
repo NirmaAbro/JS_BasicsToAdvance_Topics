@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Rest operator in js</h1>
+
+
+    <script>
+        //let sum=()=>{
+        //    console.log(arguments);
+        //}
+        //sum(12,1,2);
+        //sum(30,10);
+
+        //The arguments object is available only in regular functions, not in arrow functions.
+        //The rest operator, represented by three dots (...), allows you to represent an indefinite number of arguments as an array. 
+        //Without the rest operator, you'd need to define the function with a fixed number of parameters. With the rest operator, you can accept any number of arguments dynamically.
+        //function sum(...numbers) {
+        //let total = 0;
+        //for (let number of numbers) {
+        //total += number;
+
+
+        //spread  operator 
+        //it takes the group and tries to spread it into the multiple values , ya group of values ko leta ha r usko individual value bnaky use krta ha 
+        //he spread operator, also denoted by three dots (...), allows an iterable (such as an array,object it can be anything group of things) to be expanded into individual elements. It "spreads" the elements of an iterable into separate values.
+        //let num1=[1,2,3,4];
+        //console.log(...num1,5,6,7); //spread operator is used 
+        //let alphabates="abcd";
+        //console.log(...alphabates,"e","f","g","h");
+        //let alphaNum="ab12";
+        //console.log(...alphaNum,"e","f","g","h"); 
+
+        //now rest operator in js
+        //function sum(a,b,c,d,e){
+         //   return a+b+c+d+e;
+        //}
+        //console.log(sum(1,2,1,1,1));  //se the code become messy and we have to tell functions that accepts that argumnts , then it will accep it ,
+        //so , by looking to this rest operator has come , ya simple function ko dynamic banata ha phir hum usmy jitny bhi number of argumnets ko dalskty hn .
+        //The rest operator in JavaScript is represented by three dots (...) and is used in function declarations to collect multiple arguments into a single array parameter. It allows a function to accept an indefinite number of arguments as an array, making it more flexible and convenient to work with varying numbers of parameters.
+        //function sum(...arg){
+        //    sum=0;
+        //    for( let i in arg){
+        //        sum+=arg[i];
+                
+        //    }
+        //    console.log(sum);
+        //}
+        //sum(1,2,3,1,1,1,1); //now ab ya dynamically hogya ya function ktny bhi num of args do acce[pts kryga
+
+
+        //javascript modules 
+        //avaScript modules are reusable pieces of code that encapsulate functionality and can be imported and exported between different JavaScript files. Modules allow you to organize your code into separate files, making it easier to maintain, reuse, and collaborate on large projects.
+    </script>
+</body>
+</html>
